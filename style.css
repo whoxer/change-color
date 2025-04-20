@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.msg {
+    padding: 400px 0;
+    text-align: center;
+}
+
+.msg-text {
+    font-family: "Playwrite AU SA", cursive;
+}
+
+:root {
+    /* const não mudar nada . eu odeio javascript da silva */
+    --btn-color-when-hover: grey;
+
+
+    /* bordas */
+    --btn-border: black;
+
+    /* cores maneiras */
+    --btn-color: pink;
+    --text-color: black;
+    --body-content-color: white;
+}
+
+
+
+#body-content {
+    transition: background-color 0.3s;    
+    background-color: var(--body-content-color);
+}
+
+.btn-action {
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: var(--btn-color);
+    border-color: var(--btn-border);
+    color: var(--text-color);
+    border-style: dotted;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-action:hover {
+    background-color: var(--btn-color-when-hover);
+}
+
+.text {
+    font-family: "Titillium Web", sans-serif;
+    font-style: normal;
+
+    text-align: justify;
+
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+    font-size: x-large;
+
+    background-color: white;
+    color: black;
+}
